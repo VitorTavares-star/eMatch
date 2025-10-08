@@ -12,7 +12,8 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Login" component={TelaLogin}/>
-    
+        <Stack.Screen name="Cadastro" component={TelaCadastro}/>
+        <Stack.Screen name="Descobrir" component={TelaDescobrir}/>
       </Stack.Navigator>
     </NavigationContainer>
   );                                                                                                                                                                                    
