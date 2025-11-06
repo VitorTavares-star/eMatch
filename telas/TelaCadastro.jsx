@@ -102,7 +102,7 @@ function TelaCadastro({ navigation }) {
 
             <Button
                 title="Cancelar"
-                onPress={() => navigation.navigate('Cancelar')}
+                onPress={() => navigation.navigate('Login')}
             />
         </View>
     );
